@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    //Program to find volume of cube
+    int n,volume;
+    printf("enter n");
+    scanf("%d",&n);
+    volume=n*n*n;
+    printf("volume of cube is %d",volume);
+    return 0;
+}
